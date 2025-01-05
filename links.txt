@@ -1,0 +1,20 @@
+Base Url: 
+        https://api.themoviedb.org/3/
+Individual:
+     https://api.themoviedb.org/3/movie/{movie_id}
+
+Now playing:
+https://api.themoviedb.org/3/movie/now_playing
+
+popular:
+https://api.themoviedb.org/3/movie/popular
+
+top rated:
+https://api.themoviedb.org/3/movie/top_rated
+
+Upcoming:
+https://api.themoviedb.org/3/movie/upcoming
+
+
+search
+https://api.themoviedb.org/3/search/movie?query=avatar&include_adult=false&language=en-US&page=1
