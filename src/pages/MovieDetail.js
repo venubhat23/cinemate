@@ -7,9 +7,10 @@ export const MovieDetail = () => {
   const {id} = useParams();
   const [data, setData] = useState({});
   const image = data.poster_path ? `https://image.tmdb.org/t/p/w500/${data.poster_path}` : BackUp;
+  const apiKey = process.env.REACT_APP_API_KEY
   useEffect(() => {
     async function fetchMovie() {
-      const response = await fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=6ddfba223fb118dfcb25115f4accf3cf`);
+      const response = await fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=${apiKey}`);
       const json = await response.json()
       setData(json);
       console.log(json)
