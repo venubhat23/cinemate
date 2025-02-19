@@ -19,7 +19,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/cinemate.git
+   git clone https://github.com/venubhat23/cinemate.git
    cd cinemate
    ```
 
