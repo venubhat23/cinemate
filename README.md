@@ -61,25 +61,33 @@ If you’re not satisfied with the build tool and configuration choices, you can
 
 ## 📂 Project Structure
 
-Here’s a quick overview of the project structure:
+Here’s a detailed overview of the project structure:
 
 ```
 cinemate/
 ├── src/
+│   ├── assets/              # Static assets like images 
 │   ├── components/          # Reusable components like Header, Footer, Card
+│   ├── hooks/               # Custom React hooks 
 │   ├── pages/               # Pages like MovieList, MovieDetail, Search, PageNotFound
-│   ├── assets/              # Static assets like images
-│   ├── App.js               # Main application component
-│   ├── index.js             # Entry point for the app
-│   └── AllRoutes.js         # Routing configuration
+│   ├── routes/              # Routing configuration 
+│   ├── App.css              # Main application styles 
+│   ├── App.js               # Main application component 
+│   ├── index.css            # Global styles 
+│   └── index.js             # Entry point for the app 
 ├── public/                  # Public assets and index.html
 ├── package.json             # Project dependencies and scripts
-└── README.md                # Project documentation
+├── package-lock.json        # Lock file for dependencies 
+├── tailwind.config.js       # Tailwind CSS configuration
+├── netlify.toml             # Netlify deployment configuration
+├── .env                     # Environment variables 
+├── .gitignore               # Specifies files/folders to ignore in version control 
+└── README.md                # Project documentation 
 ```
 
 ---
 
-## 🎥 Features
+## � Features
 
 - **Home Page**: Displays the latest movies currently playing in theaters.
 - **Popular Movies**: Explore the most popular movies.
@@ -106,5 +114,6 @@ If you encounter any issues while running the project, here are some common solu
 ### `npm run build` fails to minify
 This issue usually occurs due to problems with dependencies. Check the [troubleshooting guide](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) for more information.
 
+---
 
 Enjoy exploring movies with **Cinemate**! 🎉🍿
